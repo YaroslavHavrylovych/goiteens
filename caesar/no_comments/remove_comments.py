@@ -1,4 +1,4 @@
-file_name = "../no_loop"
+file_name = "../loop"
 f_source = open(file_name + '.py', 'r')
 f_dest = open("no_comments.py", 'w')
 f_dest.truncate()
