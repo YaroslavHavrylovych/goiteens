@@ -3,6 +3,10 @@ captures/**
 captures
 wiki/**
 wiki
+#tmp, for one lesson only
+processing_2_2_1_life/life_handmade
+processing_2_2_1_life/life_handmade/**
+
 
 # System:
 Thumbs.db
