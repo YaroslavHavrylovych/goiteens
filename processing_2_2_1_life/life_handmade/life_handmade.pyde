@@ -66,5 +66,4 @@ def mousePressed():
     game_field[i][j] = 1
     
 def mouseDragged():
-    mousePressed()
-    
+    mousePressed()  

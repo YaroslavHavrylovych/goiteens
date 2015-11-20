@@ -38,8 +38,17 @@ def step(local_game_field):
             for pair in CHECKED_CELLS:
                 i1 = i + pair[0]
                 j1 = j + pair[1]
-                if in_bounds(0, n-1, i1) and in_bounds(0, m-1, j1):
-                    tmp_list[i][j] += local_game_field[i1][j1]
+                if not (in_bounds(0, n-1, i1) and in_bounds(0, m-1, j1)):
+                    if i1 < 0:
+                        i1 = i1 + n
+                    else:
+                        i1 = i1 - n
+                    if j1 < 0:
+                        j1 = j1 + m
+                    else:
+                        j1 = j1 - m
+                tmp_list[i][j] += local_game_field[i1][j1]
+    
     #game rules
     for i in range(n):
         for j in range(m):
