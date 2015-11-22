@@ -101,7 +101,7 @@ def check_win():
         enemy1_i = 0
         enemy1_j = 0
         game_field[pacman_i][pacman_j] = 2 #pacman will kill enemy
-        enemy1_live = True
+        enemy1_live = False
         enemies_amount = enemies_amount - 1
     
     ## Tut pusatu vsih inshuh vorohiv
