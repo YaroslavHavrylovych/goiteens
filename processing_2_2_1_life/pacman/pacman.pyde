@@ -142,19 +142,19 @@ def move_pacman_if_key_was_pressed():
         i = pacman_i
         j = pacman_j
         if keyboard_key_that_was_pressed == RIGHT:
-            j = (j + 1) if j < M-1 else M-1
+            j = (j + 1) if j < M-1 else 0
         elif keyboard_key_that_was_pressed == LEFT:
-            j = (j - 1) if j > 0 else 0
+            j = (j - 1) if j > 0 else M-1
         elif keyboard_key_that_was_pressed == UP:
-            i = (i - 1) if i > 0 else 0
+            i = (i - 1) if i > 0 else N-1
         elif keyboard_key_that_was_pressed == DOWN:
-            i = (i + 1) if i < N-1 else N-1
+            i = (i + 1) if i < N-1 else 0
         if game_field[i][j] == 1:
             i = pacman_i
             j = pacman_j
         
         #y poperedniu pozuciy pacman stavumo 0 (passage) y novy pushumo 3 (pacman)    
-        game_field[pacman_i][pacman_j] = 0 #sprobuite zakomentuvatu i hlianytu scho byde
+        game_field[pacman_i][pacman_j] = 0 #sprobuite zakomentuvatu i hlianytu scho byde 
         pacman_i = i
         pacman_j = j
         
