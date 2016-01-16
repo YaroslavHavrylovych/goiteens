@@ -1,7 +1,6 @@
 # goiteens
 
-Repository for sharing different code examples on python.
+Support repository used for teaching.
+Currently contains some python, processing and arduino examples.
 
-Warning: Some code examples have mistakes
-which were planned (so if you want to use something, you have to pay attention on this
-warning)
+Lections (on Ukrainian) you can find on my [blendspace](https://www.tes.com/member/yaroslavhavrylov).
