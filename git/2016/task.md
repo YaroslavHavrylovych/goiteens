@@ -13,18 +13,18 @@
 
 ##Частина 1
 
-1. (Встановити git)[https://git-scm.com/book/uk/v2/%D0%92%D1%81%D1%82%D1%83%D0%BF-%D0%86%D0%BD%D1%81%D1%82%D0%B0%D0%BB%D1%8F%D1%86%D1%96%D1%8F-Git]
+1. [Встановити git](https://git-scm.com/book/uk/v2/%D0%92%D1%81%D1%82%D1%83%D0%BF-%D0%86%D0%BD%D1%81%D1%82%D0%B0%D0%BB%D1%8F%D1%86%D1%96%D1%8F-Git)
 на ваш комп (навіть на Windows у вас відкриється командний рядок схожий на лінукс).
 
-2. Налаштувати git як вказано в (інструкції)[https://git-scm.com/book/uk/v2/%D0%92%D1%81%D1%82%D1%83%D0%BF-%D0%9F%D0%BE%D1%87%D0%B0%D1%82%D0%BA%D0%BE%D0%B2%D0%B5-%D0%BD%D0%B0%D0%BB%D0%B0%D1%88%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-Git]
+2. Налаштувати git як вказано в [інструкції](https://git-scm.com/book/uk/v2/%D0%92%D1%81%D1%82%D1%83%D0%BF-%D0%9F%D0%BE%D1%87%D0%B0%D1%82%D0%BA%D0%BE%D0%B2%D0%B5-%D0%BD%D0%B0%D0%BB%D0%B0%D1%88%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-Git)
 в розділі _Ім’я користувача_
 
-2. Зареєструватись на (github)[https://github.com/join]. Скинути мені на пошту 
+2. Зареєструватись на [github](https://github.com/join). Скинути мені на пошту 
 yaroslavlancelot@gmail.com, чи в скайп gavrilovich_yaroslav, чи в вк ваш нік на github.
 
 3. знайти мене на github (Yaroslav Havrylovych).
 
-4. Знайти в моїх проектах потрібний (goiteens)[https://github.com/YaroslavHavrylovych/goiteens]
+4. Знайти в моїх проектах потрібний [goiteens](https://github.com/YaroslavHavrylovych/goiteens)
 
 5. Створити копію такого проекту собі на комп’ютері:
     * скачати проект (папка в які буде проект створиться автоматично) `git clone git@github.com:YaroslavHavrylovych/goiteens.git`
@@ -63,7 +63,7 @@ goiteens (я думаю pwd команда яку ви набирали у п. 5
     * зберегти до нових ваші зміни командою `git commit -m "Ваше_ім’я start to learn git"`
     * закинути все на сервер командою `git push origin master`
 
-12. Відкрийте на (github)[https://github.com/YaroslavHavrylovych/goiteens/tree/master/git/2016]
+12. Відкрийте на [github](https://github.com/YaroslavHavrylovych/goiteens/tree/master/git/2016)
 папку goiteens (по лінку вона відкриється сама) і перевірте всі ваші файли. Якщо все там - вітаю :)
 
 ## Частина 2
