@@ -19,8 +19,8 @@
 2. Налаштувати git як вказано в [інструкції](https://git-scm.com/book/uk/v2/%D0%92%D1%81%D1%82%D1%83%D0%BF-%D0%9F%D0%BE%D1%87%D0%B0%D1%82%D0%BA%D0%BE%D0%B2%D0%B5-%D0%BD%D0%B0%D0%BB%D0%B0%D1%88%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-Git)
 в розділі _Ім’я користувача_
 
-2. Зареєструватись на [github](https://github.com/join). Скинути мені на пошту 
-yaroslavlancelot@gmail.com, чи в скайп gavrilovich_yaroslav, чи в вк ваш нік на github.
+2. Зареєструватись на [github](https://github.com/join). Скинути ваш нік на github мені на пошту 
+yaroslavlancelot@gmail.com, чи в скайп gavrilovich_yaroslav, чи в вк.
 
 3. знайти мене на github (Yaroslav Havrylovych).
 
