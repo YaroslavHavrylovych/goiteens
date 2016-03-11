@@ -72,7 +72,7 @@ goiteens (я думаю pwd команда яку ви набирали у п. 5
 1. Відкрити сайт для виконання python коду онлайн [ось](http://www.pythontutor.com/visualize.html#mode=edit).
 
 
-2. Скопіюйте код [звідси](https://github.com/YaroslavHavrylovych/goiteens/blob/master/git/2016/group4/yaroslav_havrylovych/yaroslav.py),
+2. Скопіюйте код [звідси](https://github.com/YaroslavHavrylovych/goiteens/blob/master/git/2016/group4/yaroslav_havrylovych/git_test/yaroslav.py),
 і вставте його у поле для введення коду для сайту з п.1 (частина 2).
 
 3. Натисніть кнопку _Visualize Excecution_ і ви перейдете в нове вікно де виконання написаної
