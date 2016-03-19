@@ -1,0 +1,45 @@
+# Custom folders
+captures/**
+captures
+wiki/**
+wiki
+old/**
+
+# System:
+Thumbs.db
+.DS_Store
+*.swp
+*.hprof
+*$*.class
+*~
+Desktop.ini
+
+# Version Control Systems:
+.svn
+CVS
+.hg
+.bzr
+
+#gradle
+.gradle
+target/**
+bin/**
+obj/**
+doc/**
+gen/**
+gdb.setup
+gdbserver
+proguard/**
+
+#IDE:
+*.settings
+*.classpath
+*.project
+*.idea
+build
+*.iml
+project.properties
+local.properties
+
+# Crashlytics
+res/values/com_crashlytics_export_strings.xml
