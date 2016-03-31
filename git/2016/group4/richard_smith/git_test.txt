@@ -1,0 +1,8 @@
+def Adding_numbers(value):
+
+    Start = 0
+    for i in range(0, value):
+        Start = Start + i
+    return Start
+
+print("Âiäïîâiäü: " + str(Adding_numbers(124)))
