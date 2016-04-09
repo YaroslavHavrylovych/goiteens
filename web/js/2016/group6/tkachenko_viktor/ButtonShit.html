@@ -1,0 +1,53 @@
+
+<HTML>
+<HEAD>
+<TITLE>Running button</TITLE>
+<META content="text/html; charset=windows-1251" http-equiv="Content-Type">
+</HEAD>
+<BODY onLoad="changeIt();" onClick="moveIt();">
+
+
+<SPAN id="button1" style="position:relative;z-index:10"></SPAN></P>
+<script>
+
+var btnbgcol="lightgreen"
+var fntcol="black"
+var ok=(document.getElementById||document.all)?1:0
+if (ok)
+var cross_el=document.getElementById? document.getElementById("button1"):button1
+
+message = "Click me bitch"
+
+
+function changeIt(){
+if (!ok)
+return
+cross_el.innerHTML='<button style="background-color:'+btnbgcol+'" onmouseDown="moveIt();" onmouseOver="moveIt()"><font color="'+fntcol+'">'+message+'</font></button>'
+}
+
+function setRandom(){
+random1=Math.floor(Math.random()*301)
+random2=Math.floor(Math.random()*401)
+
+}
+
+function moveIt(){
+if (!ok)
+return
+setRandom()
+cross_el.style.top=random1
+cross_el.style.left=random2
+
+if (document.all){
+if (cross_el.offsetTop-document.body.scrollTop>document.body.clientHeight )
+cross_el.style.top=random1*(-2/3)
+}
+else{
+if (cross_el.offsetTop-window.pageYOffset>window.innerHeight)
+cross_el.style.top=random1*(-2/3)
+}
+
+}
+</script>
+<body>
+</BODY></HTML> 
