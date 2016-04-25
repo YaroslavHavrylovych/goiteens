@@ -25,7 +25,7 @@
 
 3. Зараз у вас вже створено власний репозиторій, але поки відсутня його публічна сторінка.
 Качаємо репозиторій собі на комп’ютер (аналогічно як ми робили це для ДЗ з
-[html](https://github.com/YaroslavHavrylovych/goiteens/blob/master/web/html/2016/task.m://github.com/YaroslavHavrylovych/goiteens/blob/master/web/html/2016/task.md)
+[html](https://github.com/YaroslavHavrylovych/goiteens/blob/master/web/html/2016/task.md)
 та ін.) наступним чином:
 
     * Зайти на домашню сторінку.
@@ -33,7 +33,7 @@
     * З правої сторони у списку *Your repositories* знайти новостворений (в п. 2 є його назва) і
 натиснути на нього (відкрити).
 
-    * На сторінці репозиторію знати напис https як на картинці [тут](task_images/https.png)
+    * На сторінці репозиторію знати напис https як на картинці ![https_button](task_images/https.png)
 (якщо у вас там напис ssh, то натисніть і з меню як з’явиться вибрати https). Скопіювати адресу
 яка знаходиться в цьому полі.
 
