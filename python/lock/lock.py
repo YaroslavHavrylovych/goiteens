@@ -6,7 +6,7 @@ opposite (0 to 1 and 1 to 0). Your task to fill the whole array with 1 (this wil
 import sys
 from random import randint
 
-SIZE = 5
+SIZE = 3
 LOCK = [[randint(0, 1) for _ in range(SIZE)] for _ in range(SIZE)]
 
 def print_array(array):
