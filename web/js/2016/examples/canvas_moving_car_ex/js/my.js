@@ -21,10 +21,10 @@ var myGameArea = {
             e.preventDefault();
             myGameArea.keys = (myGameArea.keys || []);
             myGameArea.keys[e.keyCode] = (e.type == "keydown");
-        })
+        });
         window.addEventListener('keyup', function (e) {
             myGameArea.keys[e.keyCode] = (e.type == "keydown");            
-        })
+        });
     },
     stop : function() {
         clearInterval(this.interval);
@@ -32,7 +32,7 @@ var myGameArea = {
     clear : function() {
         this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
     }
-}
+};
 
 function carComponent(width, height, img, x, y, type) {
     this.type = type;
@@ -52,12 +52,12 @@ function carComponent(width, height, img, x, y, type) {
         ctx.rotate(this.angle);
         ctx.drawImage(img, -this.half_width, -this.half_height, width, height);
         ctx.restore();    
-    }
+    };
     this.newPos = function() {
         this.angle += this.moveAngle * Math.PI / 180;
         this.x += this.speed * Math.sin(this.angle);
         this.y -= this.speed * Math.cos(this.angle);
-    }
+    };
 }
 
 function updateGameArea() {
