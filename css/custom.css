@@ -1,45 +1,65 @@
-.bg-1 {
-    background-color: #373737; 
-    color: #ffffff;
-    padding-top: 70px;
-    /* background: url(../images/background.png);
-    bacgkround-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding-bottom:5px; */
+blockquote {
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
 }
 
-.footer { 
-    padding: 30px;
-    background-color: #111111; /* Black Gray */
-    color: #fff;
+blockquote:before {
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
 }
 
-.bg-1-text {
-    color: #dae7d9;
-    text-decoration: none;
+blockquote p {
+  display: inline;
 }
 
-body {
-    background-color: #171717;
+.text-color {
+    color: #999999;
 }
 
-.groups-list {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.group-image img {
+img.student-image {
+    width: 125px;
+    height: 125px;
+    /* аж три рядки, щоб картинка була по центру області в якій вона є */
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto;     
+    margin-right: auto; 
 }
 
-.group-background {
-    color: #dddddd;
-    padding: 50px;
+p.student-name {
+    text-indent: 0px;
+    text-align: center;
+    padding-top: 10px;
 }
 
-.group-text-style {
-    padding: 20px;
-    font-size: 16px;
+div.students-list-first-margin {
+    margin-top: 40px;
+}
+
+div.students-list-margin {
+    margin-top: 30px;
+}
+
+p {
+    text-indent: 50px;
+    font-size: 120%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h1 {
+    font-size: 350%;
+}
+
+h2 {
+    font-size: 220%;
+}
+
+h2.indent {
+    margin-top: 70px;
+}
+
+footer {
+    margin-top: 70px;
 }
